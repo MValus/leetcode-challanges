@@ -1,4 +1,4 @@
-﻿namespace LeetCodeChallenges;
+﻿namespace LeetCodeChallenges._01_Islands;
 
 public class IslandsDfsCounter : IslandsCounter
 {
