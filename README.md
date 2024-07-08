@@ -19,7 +19,7 @@ Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0'
 An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume
 all four edges of the grid are all surrounded by water.
 
-### Example 1
+### Example #1
 Input:
 ```
 grid = [
@@ -31,7 +31,7 @@ grid = [
 ```
 Output: `1`
 
-### Example 2
+### Example #2
 Input:
 ```
 grid = [
@@ -59,3 +59,37 @@ Class [IslandsBfsCounter.cs](LeetCodeChallenges/01_Islands/IslandsBfsCounter.cs)
 
 ### Tests
 Class [IslandsTests.cs](LeetCodeChallenges/01_Islands/IslandsTests.cs) contains the test cases for the given challenge.
+
+## Problem #2 - Calculate median of 2 sorted arrays
+Given two sorted arrays `nums1` and `nums2` of size `m` and `n` respectively, return the median of the two sorted arrays.
+The overall run time complexity should be `O(log (m+n))`.
+
+### Example #1
+Input:
+```
+nums1 = [1,3]
+nums2 = [2]
+```
+Output: `2.00000`
+
+Explanation: merged array = [1,2,3] and median is 2.
+
+### Example #2
+Input:
+```
+nums1 = [1,2]
+nums2 = [3,4]
+```
+Output: `2.50000`
+
+Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
+
+### Constrains
+```
+nums1.length == m
+nums2.length == n
+0 <= m <= 1000
+0 <= n <= 1000
+1 <= m + n <= 2000
+-106 <= nums1[i], nums2[i] <= 106
+```
