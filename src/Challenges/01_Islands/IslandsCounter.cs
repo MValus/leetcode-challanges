@@ -1,4 +1,4 @@
-﻿namespace LeetCodeChallenges._01_Islands;
+﻿namespace Challenges._01_Islands;
 
 public abstract class IslandsCounter(string[,] map, bool debugOutput)
 {

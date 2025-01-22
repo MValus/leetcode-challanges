@@ -1,6 +1,7 @@
-﻿using Xunit;
+﻿using Challenges._02_Median;
+using Xunit;
 
-namespace LeetCodeChallenges._02_Median;
+namespace Challenges.Tests._02_Median;
 
 public class MedianCalculatorTests
 {

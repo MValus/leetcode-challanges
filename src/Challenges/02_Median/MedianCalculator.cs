@@ -1,4 +1,4 @@
-﻿namespace LeetCodeChallenges._02_Median;
+﻿namespace Challenges._02_Median;
 
 public static class MedianCalculator
 {

@@ -1,6 +1,7 @@
-﻿using Xunit;
+﻿using Challenges._01_Islands;
+using Xunit;
 
-namespace LeetCodeChallenges._01_Islands;
+namespace Challenges.Tests._01_Islands;
 
 public class TestMaps : TheoryData<int, string[,]>
 {
