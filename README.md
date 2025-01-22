@@ -93,3 +93,9 @@ nums2.length == n
 1 <= m + n <= 2000
 -106 <= nums1[i], nums2[i] <= 106
 ```
+
+## Problem #3 - Multiway number partitioning
+Partition a multiset of numbers into a fixed number of subsets, such that the sums of the subsets are as similar as possible.
+
+### Example #1
+Given k=2, S = {3,1,1,2,2,1} a valid solution to the partition problem is the two sets S1 = {1,1,1,2} and S2 = {2,3}. S1 = {3,1,1} and S2 = {2,2,1} is another solution. 
